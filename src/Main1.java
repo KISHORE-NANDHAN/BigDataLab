@@ -15,5 +15,10 @@ public class Main1 {
 			System.out.println(me.getKey());
 			System.out.println(me.getValue());
 		}
+		
+		Iterator<?> i1 = m.entrySet().iterator();
+		while(i1.hasNext()) {
+			System.out.println(i1.next());
+		}
 	}
 }
